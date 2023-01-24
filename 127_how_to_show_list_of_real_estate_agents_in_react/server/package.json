@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1282.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "morgan": "^1.10.0",
+    "nanoid": "^4.0.0",
+    "node-geocoder": "^4.2.0",
+    "nodemon": "^2.0.20",
+    "slugify": "^1.6.5"
+  }
+}
